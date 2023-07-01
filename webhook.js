@@ -41,7 +41,7 @@ app.post('/fapshi-webhook', express.json(), async (req, res) => {
             console.log(`Unhandled event status: ${event.type}`);
     }
 
-    // Return a 200 response to acknowledge receipt of the event
+    // Return a 200response to acknowledge receipt of the event
     response.send();
 });
 
