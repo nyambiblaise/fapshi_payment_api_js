@@ -30,7 +30,7 @@ module.exports = {
                 if(!Number.isInteger(data.amount))
                     resolve(error('amount must be of type integer', 400))
                 if(data.amount<100)
-                    resolve(error('amount cannot be less than 100 XAF', 400))
+                    resolve(error('amount cannot be less than 100XAF', 400))
 
                 const config = {
                     method: 'post',
